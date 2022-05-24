@@ -185,6 +185,9 @@
     border: none;
     background-color: #0000;
   }
+  .dialog-box header  h1{
+    text-align: center;
+  }
   .dialog-box header button i{
     font-size: 20px!important;
   }
