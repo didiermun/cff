@@ -54,7 +54,6 @@ import SearchData from '../../utils/Search';
 import { SearchNotEqual, SearchEqual } from '../../utils/EqualAndNotEqual'
 import './Table.css';
 import { funcContext } from '../../GlobalState'
-import Select from 'react-select'
 
 const DashboardMap = (props) => {
   console.log(props, " ---------------> props in dashbaord")
@@ -628,7 +627,7 @@ const DashboardMap = (props) => {
 
      <div className="input_container">
        <input name="features"></input>
-       <p className="text-center">34 features selected</p>
+       <p className="text-center mt-4">34 features selected</p>
      </div>
      <footer>
        <div className="input_container  option_button">
@@ -678,7 +677,7 @@ const DashboardMap = (props) => {
 
         
       <div className="filter_buttons">
-          <button onClick={()=>{handleFilterModel()}}>Filters</button>
+          <button onClick={()=>{handleFilterModel()}}>Map Filters</button>
         </div>
         
 
