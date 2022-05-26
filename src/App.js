@@ -4,7 +4,7 @@ import AdminLayout from "layouts/Admin.js";
 import AuthLayout from "layouts/Auth.js";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import AuthRoutes from "./components/PrivateRoute/AuthRoutes";
-import history from "./commonFunctions/history";
+import history from "commonFunctions/history";
 
 const App = () => {
   const roleId = localStorage.getItem("role_id");
