@@ -14,7 +14,7 @@ specifiers:
   datatables.net: ^1.11.5
   eslint-plugin-flowtype: 3.13.0
   gulp: 4.0.2
-  gulp-append-prepend: 1.0.8
+  gulp-append-prepend: 1.0.9
   jquery: ^3.6.0
   lodash: ^4.17.21
   node-sass: ^6.0.1
@@ -31,7 +31,7 @@ specifiers:
   react-dropzone: ^11.4.2
   react-iframe: ^1.8.0
   react-query: ^3.27.0
-  react-router-dom: 5.1.2
+  react-router-dom: 5.3.4
   react-scripts: ^4.0.3
   react-select: ^5.1.0
   reactstrap: 8.4.1
@@ -66,7 +66,7 @@ dependencies:
   react-dropzone: 11.7.1_react@16.12.0
   react-iframe: 1.8.0_react@16.12.0
   react-query: 3.39.0_7lre6svei6ldbsvkukunzkfmqi
-  react-router-dom: 5.1.2_react@16.12.0
+  react-router-dom: 5.3.4_react@16.12.0
   react-scripts: 4.0.3_6v5bk6gkerpe7bg7juahh4ep3m
   react-select: 5.3.2_7lre6svei6ldbsvkukunzkfmqi
   reactstrap: 8.4.1_7lre6svei6ldbsvkukunzkfmqi
@@ -75,7 +75,7 @@ dependencies:
 devDependencies:
   eslint-plugin-flowtype: 3.13.0
   gulp: 4.0.2
-  gulp-append-prepend: 1.0.8
+  gulp-append-prepend: 1.0.9
   typescript: 3.7.5
 
 packages:
@@ -7184,7 +7184,7 @@ packages:
       type: 2.6.0
 
   /extend-shallow/2.0.1:
-    resolution: {integrity: sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=}
+    resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
     dependencies:
       is-extendable: 0.1.1
@@ -7957,8 +7957,8 @@ packages:
     resolution: {integrity: sha512-zGEOVKFM5sVPPrYs7J5/hYEw2Pof8KCyOwyhG8sAF26mCAeUFAcYPu1mwB7hhpIP29zOIBaDqwuHdLp0jvZXjw==}
     dev: false
 
-  /gulp-append-prepend/1.0.8:
-    resolution: {integrity: sha512-dmlju9nEC4PRBdfwaGsTrDQCx/7hVyPfbBNJ8rNSIrY7O4fdiPb2ei7N0mxXcxrsxA/BftTGMEdRZrSH8g9cfg==}
+  /gulp-append-prepend/1.0.9:
+    resolution: {integrity: sha512-IUHAd9NHNpQWj0dA8GTEkgUlrgEhTZVe5T6AuEAAMlMSIMdxDZlCQj7zSKDL69nMJpsvgtgosAG4+n6zlhv27Q==}
     engines: {node: '>=4'}
     dependencies:
       plugin-error: 1.0.1
@@ -8924,11 +8924,11 @@ packages:
     dev: false
 
   /isarray/0.0.1:
-    resolution: {integrity: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=}
+    resolution: {integrity: sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==}
     dev: false
 
   /isarray/1.0.0:
-    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
 
   /isexe/2.0.0:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
@@ -10232,18 +10232,6 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /mini-create-react-context/0.3.3_sqidttekqs5wjnkgiij4o7rmoe:
-    resolution: {integrity: sha512-TtF6hZE59SGmS4U8529qB+jJFeW6asTLDIpPgvPLSCsooAwJS7QprHIFTqv9/Qh3NdLwQxFYgiHX5lqb6jqzPA==}
-    peerDependencies:
-      prop-types: ^15.0.0
-      react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-    dependencies:
-      '@babel/runtime': 7.18.0
-      prop-types: 15.8.1
-      react: 16.12.0
-      tiny-warning: 1.0.3
-    dev: false
-
   /mini-css-extract-plugin/0.11.3_webpack@4.44.2:
     resolution: {integrity: sha512-n9BA8LonkOkW1/zn+IbLPQmovsL0wMb9yx75fMJQZf2X1Zoec9yTZtyMePcyu19wPkmFbzZZA6fLTotpFhQsOA==}
     engines: {node: '>= 6.9.0'}
@@ -11220,7 +11208,7 @@ packages:
     dev: true
 
   /path-to-regexp/0.1.7:
-    resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=}
+    resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
     dev: false
 
   /path-to-regexp/1.8.0:
@@ -12367,6 +12355,12 @@ packages:
   /react-dev-utils/11.0.4_xkspuxavokpo7vyagua5wsb2f4:
     resolution: {integrity: sha512-dx0LvIGHcOPtKbeiSUM4jqpBl3TcY7CDjZdfOIcKeznE7BWr9dg0iPG90G5yfVQ+p/rGNMXdbfStvzQZEVEi4A==}
     engines: {node: '>=10'}
+    peerDependencies:
+      typescript: '>=2.7'
+      webpack: '>=4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
       '@babel/code-frame': 7.10.4
       address: 1.1.2
@@ -12392,12 +12386,12 @@ packages:
       shell-quote: 1.7.2
       strip-ansi: 6.0.0
       text-table: 0.2.0
+      typescript: 3.7.5
+      webpack: 4.44.2
     transitivePeerDependencies:
       - eslint
       - supports-color
-      - typescript
       - vue-template-compiler
-      - webpack
     dev: false
 
   /react-dom/16.12.0_react@16.12.0:
@@ -12529,8 +12523,8 @@ packages:
       resize-observer-polyfill: 1.5.1
     dev: false
 
-  /react-router-dom/5.1.2_react@16.12.0:
-    resolution: {integrity: sha512-7BPHAaIwWpZS074UKaw1FjVdZBSVWEk8IuDXdB+OkLb8vd/WRQIpA4ag9WQk61aEfQs47wHyjWUoUGGZxpQXew==}
+  /react-router-dom/5.3.4_react@16.12.0:
+    resolution: {integrity: sha512-m4EqFMHv/Ih4kpcBCONHbkT68KoAeHN4p3lAGoNryfHi0dMy0kCzEZakiKRsvg5wHZ/JLrLW8o8KomWiz/qbYQ==}
     peerDependencies:
       react: '>=15'
     dependencies:
@@ -12539,13 +12533,13 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.8.1
       react: 16.12.0
-      react-router: 5.1.2_react@16.12.0
+      react-router: 5.3.4_react@16.12.0
       tiny-invariant: 1.2.0
       tiny-warning: 1.0.3
     dev: false
 
-  /react-router/5.1.2_react@16.12.0:
-    resolution: {integrity: sha512-yjEuMFy1ONK246B+rsa0cUam5OeAQ8pyclRDgpxuSCrAlJ1qN9uZ5IgyKC7gQg0w8OM50NXHEegPh/ks9YuR2A==}
+  /react-router/5.3.4_react@16.12.0:
+    resolution: {integrity: sha512-Ys9K+ppnJah3QuaRiLxk+jDWOR1MekYQrlytiXxC1RyfbdsZkS5pvKAzCCr031xHixZwpnsYNT5xysdFHQaYsA==}
     peerDependencies:
       react: '>=15'
     dependencies:
@@ -12553,7 +12547,6 @@ packages:
       history: 4.10.1
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
-      mini-create-react-context: 0.3.3_sqidttekqs5wjnkgiij4o7rmoe
       path-to-regexp: 1.8.0
       prop-types: 15.8.1
       react: 16.12.0
@@ -12745,7 +12738,7 @@ packages:
     dev: false
 
   /read-file/0.2.0:
-    resolution: {integrity: sha1-cMa6+IQux9FUD5gf0Oau1Mgb1UU=}
+    resolution: {integrity: sha512-na/zgd5KplGlR+io+ygXQMIoDfX/Y0bNS5+P2TOXOTk5plquOVd0snudCd30hZJAsnVK2rxuxUP2z0CN+Aw1lQ==}
     engines: {node: '>=0.8'}
     dev: true
 
@@ -14627,7 +14620,6 @@ packages:
     resolution: {integrity: sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: true
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
